@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Guru99.tests.NewCustomerTest">
+        <methods>
+          <include name="VerifyNewCustomer"/>
+          <include name="intialize"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Guru99.tests.NewCustomerTest -->
+      <class name="com.Guru99.tests.BalanceEnquiryTest">
+        <methods>
+          <include name="verifyEditCustomerDetails"/>
+          <include name="intialize"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Guru99.tests.BalanceEnquiryTest -->
+      <class name="com.Guru99.tests.EditCustomerTest">
+        <methods>
+          <include name="verifyEditCustomerDetails"/>
+          <include name="intialize"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Guru99.tests.EditCustomerTest -->
+      <class name="com.Guru99.tests.NewAccountTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="verifyAddnewAccount"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Guru99.tests.NewAccountTest -->
+      <class name="com.Guru99.tests.LoginTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="verifyvaliedcredentals"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.Guru99.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

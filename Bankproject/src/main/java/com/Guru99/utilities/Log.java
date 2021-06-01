@@ -2,9 +2,10 @@ package com.Guru99.utilities;
 
 import org.apache.log4j.Logger;
 
+
+
 public class Log {
-	
-private static Logger Log = Logger.getLogger(Log.class.getName());
+	private static Logger Log = Logger.getLogger(Log.class.getName());
 	
 	public static void startTestCase(String sTestCaseName){
 
@@ -65,6 +66,5 @@ private static Logger Log = Logger.getLogger(Log.class.getName());
 		    Log.debug(message);
 		 
 		 }
-
 
 }
